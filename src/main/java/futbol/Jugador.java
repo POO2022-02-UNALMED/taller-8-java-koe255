@@ -32,8 +32,7 @@ public class Jugador extends Futbolista {
 
     @Override
     public String toString() {
-        return super.toString()
-                + String.format(" con el dorsal %d. Ha marcado %d goles", this.dorsal, this.golesMarcados);
+        return super.toString() + " con el dorsal " + this.dorsal + ". Ha marcado " + this.golesMarcados;
     }
 
 }

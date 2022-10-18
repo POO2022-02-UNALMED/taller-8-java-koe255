@@ -32,8 +32,7 @@ public class Portero extends Futbolista {
 
     @Override
     public String toString() {
-        return super.toString()
-                + String.format(" con el dorsal %d. Le han marcado %d goles", this.dorsal, this.golesRecibidos);
+        return super.toString() + " con el dorsal " + this.dorsal + ". Le han marcado " + this.golesRecibidos;
     }
 
 }
