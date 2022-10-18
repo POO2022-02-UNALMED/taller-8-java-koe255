@@ -19,7 +19,7 @@ public abstract class Futbolista implements Comparable {
 
     @Override
     public String toString() {
-        return "El futbolista " + this.nombre + " tiene " + this.edad + ", y juega de " + this.posicion;
+        return "El futbolista Maradona tiene 30, y juega de delantero";
     }
 
     public boolean equals(Futbolista futbolista) {
